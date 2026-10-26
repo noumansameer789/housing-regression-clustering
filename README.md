@@ -1,5 +1,7 @@
 # Housing regression and clustering pipeline
 
+> **Provenance and scope.** Coursework portfolio reconstruction, published in 2026. Included: preprocessing, clustering and ablation helpers with small generated-data tests. The original training notebook, evaluation split, fitted models and assessment data are not included. Headline numbers describe the original assessment and are not outputs of the current unit tests.
+
 An evidence-led reconstruction of a 20,640-row regression benchmark with an
 explicit test of whether clustering actually helped prediction.
 
@@ -24,3 +26,8 @@ python -m unittest discover -s tests -v
 
 The key judgement is visible in code and documentation: a negligible ablation
 is reported as negligible rather than repackaged as model improvement.
+
+
+## Licence
+
+Original material is available for portfolio evaluation under the [evaluation-only licence](LICENSE). Third-party data, libraries and original assessment materials retain their own terms.
